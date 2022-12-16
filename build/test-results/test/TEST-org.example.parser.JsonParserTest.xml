@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.parser.JsonParserTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-12-16T17:54:57" hostname="MSI" time="0.059">
+  <properties/>
+  <testcase name="testIndividualClient1Case()" classname="org.example.parser.JsonParserTest" time="0.045"/>
+  <testcase name="testIndividualClient2Case()" classname="org.example.parser.JsonParserTest" time="0.002"/>
+  <testcase name="testLegalEntityClient1Case()" classname="org.example.parser.JsonParserTest" time="0.003"/>
+  <testcase name="testLegalEntityClient2Case()" classname="org.example.parser.JsonParserTest" time="0.001"/>
+  <testcase name="testHoldingClient1Case()" classname="org.example.parser.JsonParserTest" time="0.001"/>
+  <testcase name="testHoldingClient2Case()" classname="org.example.parser.JsonParserTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
