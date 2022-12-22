@@ -1,4 +1,4 @@
-package org.example;
+package example;
 
 public class Order {
   private final String id;

@@ -1,4 +1,4 @@
-package org.example;
+package example;
 
 import java.util.Queue;
 import java.util.UUID;
@@ -6,7 +6,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 
 public class Main {
 
-  private static final int ORDER_LIMIT = 100;
+  private static final int ORDER_LIMIT = 1;
   private static final int TAXIS_LIMIT = 5;
 
   public static void main(String[] args) throws InterruptedException {
@@ -35,7 +35,7 @@ public class Main {
   }
 
   private static void generateOrders(Queue<Order> orders) throws InterruptedException {
-    while (true) {
+    for (int i = 0; i < ORDER_LIMIT; ++ i) {
       Thread.sleep(1000);
       if (orders.size() == ORDER_LIMIT) {
         System.out.println("Много заказов приостанавливаем прием!");

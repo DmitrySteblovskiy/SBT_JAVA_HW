@@ -1,4 +1,4 @@
-package org.example;
+package example;
 
 import java.util.Queue;
 
@@ -43,7 +43,7 @@ public class DefaultDispatcher implements Dispatcher {
         System.out.printf("Таксист %s выполнил заказы %s%n.", taxi, taxi.getExecutedOrders());
       } else {
         try {
-          Thread.sleep(100);
+          Thread.sleep(100);  // чтобы не было спама о недоступности свободных таксистов
         } catch (InterruptedException e) {
           throw new RuntimeException(e);
         }
